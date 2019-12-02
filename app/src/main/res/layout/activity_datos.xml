@@ -61,6 +61,7 @@
             android:id="@+id/datosGuardados"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="guardarDatos"
             android:text="Guardar Datos" />
     </LinearLayout>
 
