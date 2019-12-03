@@ -11,11 +11,7 @@
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.a1.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+
 
     <fragment
         android:id="@+id/nav_slideshow"
@@ -45,4 +41,9 @@
         android:name="com.example.a1.DatosActivity"
         android:label="activity_datos"
         tools:layout="@layout/activity_datos" />
+    <activity
+        android:id="@+id/nav_gallery"
+        android:name="com.example.a1.MainActivityOld"
+        android:label="activity_main_old"
+        tools:layout="@layout/activity_main_old" />
 </navigation>
