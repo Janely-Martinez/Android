@@ -2,6 +2,7 @@ package com.example.a1.utilis;
 
 import com.example.a1.models.CallResult;
 import com.example.a1.models.Empleado;
+import com.example.a1.models.LoginResult;
 
 import java.util.List;
 
@@ -26,5 +27,9 @@ public interface ReporteService {
                                     @Field("telefono")String telefono,
                                     @Field("reporte") String reporte,
                                     @Field("geo") String geolocalizacion);
+
+
+    @POST ("login.php")
+    Call<LoginResult> login(@Field("username")String)
 
 }

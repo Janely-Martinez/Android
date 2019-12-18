@@ -28,6 +28,7 @@ public class ReporteActivity extends AppCompatActivity {
     private SharedPreferences reporteDatos;
     String rNombre, rEmail, rTelefono;
     EditText nombre, email, telefono, reporte, geo;
+
     private ReporteService service;
     private FusedLocationProviderClient provider;
 
